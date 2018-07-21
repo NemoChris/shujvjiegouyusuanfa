@@ -10,5 +10,6 @@
 #define demo_h
 
 #include <stdio.h>
-
+void countA(void);
+void countB(int);
 #endif /* demo_h */

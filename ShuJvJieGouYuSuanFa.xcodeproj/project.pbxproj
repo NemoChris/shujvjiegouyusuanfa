@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		456B1DA22079D5F40068A1E8 /* demo.c in Sources */ = {isa = PBXBuildFile; fileRef = 456B1DA12079D5F40068A1E8 /* demo.c */; };
+		456B1DA52079DCB50068A1E8 /* DuoXiangShi.c in Sources */ = {isa = PBXBuildFile; fileRef = 456B1DA42079DCB50068A1E8 /* DuoXiangShi.c */; };
 		457CA5F820790AC600A0C323 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 457CA5F720790AC600A0C323 /* main.c */; };
+		45DA37DD2096DDB60058F574 /* StackByArray.c in Sources */ = {isa = PBXBuildFile; fileRef = 45DA37DC2096DDB60058F574 /* StackByArray.c */; };
+		45DA37E32097173D0058F574 /* StackByLink.c in Sources */ = {isa = PBXBuildFile; fileRef = 45DA37E22097173D0058F574 /* StackByLink.c */; };
+		45F0E4DE20A67DD900AA8255 /* ListByArr.c in Sources */ = {isa = PBXBuildFile; fileRef = 45F0E4DD20A67DD900AA8255 /* ListByArr.c */; };
+		45F0E4E120A6A07D00AA8255 /* ListByLink.c in Sources */ = {isa = PBXBuildFile; fileRef = 45F0E4E020A6A07D00AA8255 /* ListByLink.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +29,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		456B1DA02079D5F40068A1E8 /* demo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = demo.h; sourceTree = "<group>"; };
+		456B1DA12079D5F40068A1E8 /* demo.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = demo.c; sourceTree = "<group>"; };
+		456B1DA32079DCB50068A1E8 /* DuoXiangShi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DuoXiangShi.h; sourceTree = "<group>"; };
+		456B1DA42079DCB50068A1E8 /* DuoXiangShi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DuoXiangShi.c; sourceTree = "<group>"; };
 		457CA5F420790AC600A0C323 /* ShuJvJieGouYuSuanFa */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ShuJvJieGouYuSuanFa; sourceTree = BUILT_PRODUCTS_DIR; };
 		457CA5F720790AC600A0C323 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		45DA37DB2096DDB60058F574 /* StackByArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackByArray.h; sourceTree = "<group>"; };
+		45DA37DC2096DDB60058F574 /* StackByArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = StackByArray.c; sourceTree = "<group>"; };
+		45DA37E12097173D0058F574 /* StackByLink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackByLink.h; sourceTree = "<group>"; };
+		45DA37E22097173D0058F574 /* StackByLink.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = StackByLink.c; sourceTree = "<group>"; };
+		45F0E4DC20A67DD900AA8255 /* ListByArr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListByArr.h; sourceTree = "<group>"; };
+		45F0E4DD20A67DD900AA8255 /* ListByArr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ListByArr.c; sourceTree = "<group>"; };
+		45F0E4DF20A6A07D00AA8255 /* ListByLink.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListByLink.h; sourceTree = "<group>"; };
+		45F0E4E020A6A07D00AA8255 /* ListByLink.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ListByLink.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,18 @@
 			isa = PBXGroup;
 			children = (
 				457CA5F720790AC600A0C323 /* main.c */,
+				456B1DA02079D5F40068A1E8 /* demo.h */,
+				456B1DA12079D5F40068A1E8 /* demo.c */,
+				456B1DA32079DCB50068A1E8 /* DuoXiangShi.h */,
+				456B1DA42079DCB50068A1E8 /* DuoXiangShi.c */,
+				45DA37DB2096DDB60058F574 /* StackByArray.h */,
+				45DA37DC2096DDB60058F574 /* StackByArray.c */,
+				45DA37E12097173D0058F574 /* StackByLink.h */,
+				45DA37E22097173D0058F574 /* StackByLink.c */,
+				45F0E4DC20A67DD900AA8255 /* ListByArr.h */,
+				45F0E4DD20A67DD900AA8255 /* ListByArr.c */,
+				45F0E4DF20A6A07D00AA8255 /* ListByLink.h */,
+				45F0E4E020A6A07D00AA8255 /* ListByLink.c */,
 			);
 			path = ShuJvJieGouYuSuanFa;
 			sourceTree = "<group>";
@@ -118,6 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45F0E4DE20A67DD900AA8255 /* ListByArr.c in Sources */,
+				45DA37E32097173D0058F574 /* StackByLink.c in Sources */,
+				45DA37DD2096DDB60058F574 /* StackByArray.c in Sources */,
+				456B1DA52079DCB50068A1E8 /* DuoXiangShi.c in Sources */,
+				45F0E4E120A6A07D00AA8255 /* ListByLink.c in Sources */,
+				456B1DA22079D5F40068A1E8 /* demo.c in Sources */,
 				457CA5F820790AC600A0C323 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

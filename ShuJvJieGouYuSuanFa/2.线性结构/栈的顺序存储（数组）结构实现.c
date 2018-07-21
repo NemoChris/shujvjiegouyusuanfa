@@ -7,3 +7,7 @@
 //
 
 #include "栈的顺序存储（数组）结构实现.h"
+
+void helloStack(){
+    printf("Hellow Statck!");
+}

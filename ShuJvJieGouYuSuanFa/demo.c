@@ -7,3 +7,17 @@
 //
 
 #include "demo.h"
+
+void countA(){
+    for (int i=10000; i>0; i--) {
+        printf("%d\n",i);
+    }
+}
+
+void countB(int n){
+    if (n) {
+        printf("%d\n",n);
+        n--;
+        countB(n);
+    }
+}

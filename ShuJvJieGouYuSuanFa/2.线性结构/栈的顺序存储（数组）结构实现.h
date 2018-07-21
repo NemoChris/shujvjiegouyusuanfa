@@ -10,5 +10,5 @@
 #define _______________h
 
 #include <stdio.h>
-
+void helloStatck(void);
 #endif /* _______________h */
